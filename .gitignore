@@ -1,0 +1,21 @@
+# Ignore virtual environments
+.venv/
+env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore dependencies
+node_modules/
+package-lock.json
+
+# Ignore environment variables
+.env
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore database files (if using SQLite)
+db.sqlite3
